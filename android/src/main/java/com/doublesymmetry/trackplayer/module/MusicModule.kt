@@ -346,7 +346,7 @@ class MusicModule(reactContext: ReactApplicationContext) : ReactContextBaseJavaM
 
         val context: ReactContext = context
         val metadata = Arguments.toBundle(map)
-        Log.d("RNTP_FORK", BundleUtils.getUri(context, metadata, "artwork")?.toString())
+        Log.d("RNTP_FORK", BundleUtils.getUri(context, metadata, "artwork")?.toString() ?: "empty")
         musicService.updateNotificationMetadata(
             metadata?.getString("title"),
             metadata?.getString("artist"),
