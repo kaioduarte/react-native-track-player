@@ -55,7 +55,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.kaioduarte:kotlinaudio:e4c8273'
+    implementation 'com.github.kaioduarte:kotlinaudio:e4c8273cbedb85ed3f91b6585610e1e2d90c0d91'
     // used when building against local maven
     // implementation "com.github.doublesymmetry:kotlin-audio:1.2.2"
 
